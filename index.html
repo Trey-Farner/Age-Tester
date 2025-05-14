@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="position-relative">
+    <img src="./images/tavern.jpg" alt="Image of a tavern" class="position-absolute tavern">
+    <img src="./images/tavern-keep-removebg-preview.png" alt="Goblin Barkeep" class="position-absolute barkeep">
+    <main role="main" class="row-fluid justify-content-center align-items-center d-flex flex-column p-2">
+        <h1>Can you enter my tavern?</h1>
+        <p>Insert your age here</p>
+        <div>
+            <input type="date" id="input" placeholder="mm/dd/yyyy">
+            <button type="submit" id="submit-btn">Submit</button>
+        </div>
+        <p id="result"></p>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
